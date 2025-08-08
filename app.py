@@ -2,6 +2,7 @@
 # Flask is used to create the API server
 # request is used to get incoming JSON data
 # jsonify is used to return the response in JSON format
+
 from flask import Flask, request, jsonify
 
 # joblib is used to load the pre-trained ML model
